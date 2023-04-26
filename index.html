@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudi League</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Saudi Football</h1>
+    <input type="text" id="searchBox" name="search" placeholder="Search by team">
+    <select name="tournament" id="tournament" onchange="handleChange()">
+        <option value="All-Tournaments">All Tournaments</option>
+        <option value="League">League</option>
+        <option value="Cup">King's Cup</option>
+        <option value="Champions">Champions league</option>
+    </select>
+    <div id="League">
+        <h2>League</h2>
+        <div class="match">
+            <p>AL-ITTIHAD</p>
+            <p>VS</p>
+            <p>AL-SHABAB</p>
+        </div>
+        <div class="match">
+            <p>AL-NASSR</p>
+            <p>VS</p>
+            <p>AL-RAED</p>
+        </div>
+        <div class="match">
+            <p>AL-ITTIHAD</p>
+            <p>VS</p>
+            <p>AL-TAAWOUN</p>
+        </div>
+    </div>
+    <div id="Cup">
+        <h2>King's Cup</h2>
+        <div class="match">
+            <p>AL-HILAL</p>
+            <p>VS</p>
+            <p>AL-WEHDA</p>
+        </div>
+    </div>
+    <div id="Champions">
+        <h2>Champions league</h2>
+        <div class="match">
+            <p>AL-HILAL</p>
+            <p>VS</p>
+            <p>URAWA</p>
+        </div>
+        <div class="match">
+            <p>URAWA</p>
+            <p>VS</p>
+            <p>AL-HILAL</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
